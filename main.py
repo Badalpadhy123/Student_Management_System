@@ -1,4 +1,12 @@
+import json
 students = []
+with open("student.json", "r") as f:
+    students=json.load(f)
+    
+
+
+
+
 while True:
     print("\n===== Student Management System =====")
     print("1. Add Student")
@@ -49,3 +57,6 @@ while True:
 
         print("Thank you!")
         break
+with open("student.json", "w") as f:
+    json.dump(students,f, indent=4)
+    
