@@ -35,7 +35,16 @@ while True:
             print("\nList of Students:")
             for student in students:
                 print(f"Roll Number: {student['roll_num']}, Name: {student['name']}, Department: {student['dept']}, CGPA: {student['cgpa']}")
-        
+    if choice == "3":
+        search_roll_num = input("Enter Roll Number to search: ")
+        found = False
+        for student in students:
+            if student["roll_num"] == search_roll_num:
+                print(f"Roll Number: {student['roll_num']}, Name: {student['name']}, Department: {student['dept']}, CGPA: {student['cgpa']}")
+                found = True
+                break
+        if not found:
+            print("Student not found.")    
     if choice == "6":
 
         print("Thank you!")
