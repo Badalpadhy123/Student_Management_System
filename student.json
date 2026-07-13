@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "roll_num": "23cse139",
+        "name": "badal",
+        "dept": "cse",
+        "cgpa": "7"
+    },
+    {
+        "roll_num": "23cse030",
+        "name": "bikash",
+        "dept": "cse",
+        "cgpa": "8"
+    }
+]
