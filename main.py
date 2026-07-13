@@ -59,10 +59,10 @@ while True:
                 if student["roll_num"] == search_roll_num:
                     print(f"Roll Number: {student['roll_num']}, Name: {student['name']}, Department: {student['dept']}, CGPA: {student['cgpa']}")
                     break
-    elif choice == "4":
+    #elif choice == "4":
         
 
-    if choice == "6":
+    elif choice == "6":
 
         print("Thank you!")
         break
